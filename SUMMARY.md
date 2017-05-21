@@ -1,7 +1,7 @@
 # Summary
 * [前言](README.md)
 * [框架流程](framework.md)
-* [入口文件](index.md)
+* [入口文件](entrance.md)
 * [全局函数](common.md)
 * [引导文件](codeIgniter.md)
 * [配置](config.md)
