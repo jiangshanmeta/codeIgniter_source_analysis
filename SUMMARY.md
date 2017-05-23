@@ -22,4 +22,5 @@
 * [输出](output.md)
 * [helper](helper/README.md)
 	[数组辅助函数](helper/array.md)
+	[日期辅助函数](helper/date.md)
 * [library](library/README.md)
