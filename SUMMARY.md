@@ -21,5 +21,5 @@
 * [输入](input.md)
 * [输出](output.md)
 * [helper](helper/README.md)
-
+	[数组辅助函数](helper/array.md)
 * [library](library/README.md)
