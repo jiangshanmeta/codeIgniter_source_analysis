@@ -30,7 +30,9 @@ web是基于HTTP协议的，这里我们不会涉及太多HTTP协议的内容(�
 
 ## Content-Type
 
-反应响应主体的资源类型。
+要说清楚content-type字段，首先要要理解mime类型。资源是有类型的，可以是text类型(html文件、css都属于text类型，他们又分属于不同的子类型text/html、text/css)，可以是image类型(gif、jpeg等)，为了表示资源的类型就有了content-type这个字段。这个字段除了mime类型外，还包含资源的字符集。
+
+和这个字段有关的一个字段是x-content-type-options。当浏览器接收到一个资源时，content-type可能是错误的，浏览器会尝试按照其他类型解析该资源，要禁止这一行为，需要设定x-content-type-options字段为nosniff。
 
 ## Pragma
 
