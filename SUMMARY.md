@@ -28,6 +28,7 @@
 	* [HTTP基础](output/http.md)
 	* [HTTP相关方法](output/httpmethod.md)
 	* [缓存](output/cache.md)
+	* [输出](display.md)
 * [helper](helper/README.md)
 	* [数组辅助函数](helper/array.md)
 	* [日期辅助函数](helper/date.md)
